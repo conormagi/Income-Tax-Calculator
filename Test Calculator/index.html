@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Income Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Income Calculator</h1>
+      <div class="income">
+        <h2>Monthly Income:</h2>
+        <div class="monthly-income">
+          <input type="number" placeholder="Enter Amount" id="monthlyIncome" />
+        </div>
+        <button class="btn">Calculate</button>
+      </div>
+      <h2 class="yearly-income">Salary:</h2>
+      <div>
+        <output type="number" id="yearlyIncome"></output>
+      </div>
+      <h2 class="result-heading">Annual Salary (after tax):</h2>
+      <h4>(Calculation based on the current standard tax rates from gov.uk)</h4>
+      <div>
+        <output type="number" id="annualSal"></output>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
